@@ -231,7 +231,7 @@ hr {
 
 .contactLinks i {
     color: #272D2D;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     cursor: auto;
 }
 
