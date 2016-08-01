@@ -1,0 +1,295 @@
+::-moz-selection {
+    background: #A846A0;
+    color: #2DCC70;
+}
+
+::selection {
+    background: #A846A0;
+    color: #2DCC70;
+}
+
+.navbar-right {
+    padding: 0% 1% 0% 1%;
+}
+
+.translucent {
+    background-color: #2DCC70;
+    opacity: 0.8;
+    border-radius: 20px;
+    color: 1e1e1e;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 20px 10px 10px 10px;
+    margin: 15px 0px 40px 0px;
+}
+
+
+/* general styles */
+
+
+/*
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+*/
+
+
+/* padded section */
+
+.pad-section {
+    padding: 50px 0;
+}
+
+
+/* vertical-centered text */
+
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #2dcc70;
+}
+
+.text-vcenter h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12% 0 0 0;
+    padding: 0;
+}
+
+.text-center h2 {
+    font-size: 25px;
+}
+
+
+/* additional sections */
+
+#home {
+    background: url(officeBackGround.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about {
+    background: url("chicagoBackGround.jpeg") no-repeat center center fixed;
+    color: #F6F8FF;
+    display: table;
+    height: 93%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#profileImg {
+    display: block;
+    margin: 0 auto;
+/*    padding-top: 60%;*/
+}
+
+#contactTitleSection,
+#skillsBackGround {
+    background-color: #272D2D;
+    color: #F6F8FF;
+}
+
+hr {
+    border-color: #2DCC70;
+    border-width: 2px;
+}
+
+.textLink {
+    color: #A846A0;
+}
+
+
+/*NOT WORKING*/
+
+.textLink: hover {
+    color: deeppink;
+}
+
+
+/*
+#services .glyphicon {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 60px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    width: 140px;
+}
+*/
+
+#projectsCover {
+    background: -webkit-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#272D2D, #2DCC70, #272D2D);
+    /* Standard syntax (must be last) */
+    color: #F6F8FF;
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#projBox {
+    background-color: #F6F8FF;
+    margin: -2% 0 0 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 10px 39px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 9px 10px 39px 3px rgba(0, 0, 0, 1);
+    box-shadow: 9px 10px 39px 3px rgba(0, 0, 0, 1);
+}
+
+#projTitle {
+    background-color: #A846A0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.projLinks i {
+    color: #F6F8FF;
+    font-size: 120%;
+}
+
+.projLinks i:hover {
+    color: #2DCC70;
+}
+
+.projLinks i:active {
+    color: #F6F8FF;
+}
+
+.projLinks i:visited {
+    color: #50514F;
+}
+
+#projHr {
+    border-color: #A846A0;
+    border-width: 2px;
+    margin: 0 0 -1% 0;
+}
+
+#projInner {
+    font-size: 15px;
+    color: black;
+}
+
+#projImg {
+    margin-top: 1%;
+}
+
+#projWeatherLoading {
+    margin-top: 1%;
+    float: left;
+    margin-right: 5%;
+    height: 50%;
+    width: auto;
+}
+
+#projectsCover .panel {
+    opacity: 0.85;
+}
+
+.panel > .panel-heading {
+    background-color: #282828;
+    color: #96e5b7;
+}
+
+#contactBody {
+    text-align: center;
+    background-color: #A846A0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 2px solid #2DCC70;
+}
+
+.contactLinks i {
+    color: #272D2D;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.contactLinks i:hover {
+    color: #2DCC70;
+}
+
+.contactLinks i:active {
+    color: #272D2D;
+}
+
+.contactLinks i:visited {
+    color: #50514F;
+}
+
+
+/*
+a:link,
+a:visited {
+    color: black;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active,
+a:visited:active {
+    color: white;
+}
+*/
+
+footer {
+    padding: 0px 0 0 0;
+    margin-bottom: 0px;
+}
+
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+
+footer .glyphicon:hover {
+    color: #306d9f;
+}
+
+
+/* Image Zoomer For Section 2 */
+
+.imageZoom {
+    width: 1%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
