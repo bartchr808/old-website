@@ -80,7 +80,7 @@ body {
 #listView li a {
     display: block;
     padding: 20px;
-    color: #F6F8FF;
+    color: #00BFFF;
     font-family: sans-serif;
     font-size: 1.1em;
     text-decoration: none;
@@ -120,16 +120,16 @@ body {
     left: 15em;
     width: 100%;
     z-index: 999;
-    border-left: 1.5px solid #2DCC70;
-    border-bottom: 1.5px solid #2DCC70;
+    border-left: 1.5px solid black;
+    border-bottom: 1.5px solid black;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#272D2D, #50514F);
+    background: -webkit-linear-gradient(#E8F1F2, #9de6ff);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#272D2D, #50514F);
+    background: -o-linear-gradient(#E8F1F2, #9de6ff);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#272D2D, #50514F);
+    background: -moz-linear-gradient(#E8F1F2, #9de6ff);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#272D2D, #50514F);
+    background: linear-gradient(#E8F1F2, #9de6ff);
     /* Standard syntax */
     /*border-bottom: 2px solid rgba(0, 0, 0, 0.2);*/
     -webkit-transition: all 0.2s ease;
@@ -197,7 +197,7 @@ section {
     font-family: sans-serif;
     font-size: 1.5em;
     text-align: left;
-    background-color: #2DCC70;
+    background-color: #E8F1F2;
 }
 
 
@@ -231,7 +231,7 @@ section {
 /* line 156, /Users/Bart/Desktop/Personal Website/NavBar.scss */
 
 #showCase section a {
-    box-shadow: inset 0px -2px #2DCC70;
+    box-shadow: inset 0px -2px #E8F1F2;
 }
 
 
@@ -239,7 +239,7 @@ section {
 
 #showCase section a:hover {
     color: #fff;
-    box-shadow: inset 0px -50px #2DCC70;
+    box-shadow: inset 0px -50px #E8F1F2;
 }
 
 
@@ -293,7 +293,7 @@ section {
     height: 0;
     border-top: 33px solid transparent;
     border-bottom: 33px solid transparent;
-    border-right: 25px solid #2DCC70;
+    border-right: 25px solid #00BFFF;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;

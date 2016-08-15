@@ -13,7 +13,7 @@
 }
 
 .translucent {
-    background-color: #2DCC70;
+    background-color: #00BFFF;
     opacity: 0.8;
     border-radius: 20px;
     color: 1e1e1e;
@@ -50,7 +50,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    color: #2dcc70;
+    color: #00BFFF;
 }
 
 .text-vcenter h1 {
@@ -81,7 +81,7 @@ body {
 
 .about {
     background: url("chicagoBackGround.jpeg") no-repeat center center fixed;
-    color: #F6F8FF;
+    color: black;
     display: table;
     height: 93%;
     position: relative;
@@ -95,22 +95,32 @@ body {
 #profileImg {
     display: block;
     margin: 0 auto;
-/*    padding-top: 60%;*/
+    /*    padding-top: 60%;*/
 }
 
 #contactTitleSection,
 #skillsBackGround {
-    background-color: #272D2D;
-    color: #F6F8FF;
+    background-color: #E8F1F2;
+    color: black;
+}
+
+h4 {
+    font-size: 22px;
+    color: black;
+}
+
+#skillDesc {
+    font-size: 18px;
+    color: black;
 }
 
 hr {
-    border-color: #2DCC70;
+    border-color: #00BFFF;
     border-width: 2px;
 }
 
 .textLink {
-    color: #A846A0;
+    color: #808080;
 }
 
 
@@ -136,15 +146,15 @@ hr {
 */
 
 #projectsCover {
-    background: -webkit-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    background: -webkit-linear-gradient(#E8F1F2, #00BFFF, #E8F1F2);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    background: -o-linear-gradient(#E8F1F2, #00BFFF, #E8F1F2);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#272D2D, #2DCC70, #272D2D);
+    background: -moz-linear-gradient(#E8F1F2, #00BFFF, #E8F1F2);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#272D2D, #2DCC70, #272D2D);
+    background: linear-gradient(#E8F1F2, #00BFFF, #E8F1F2);
     /* Standard syntax (must be last) */
-    color: #F6F8FF;
+    color: black;
     display: table;
     height: 800px;
     position: relative;
@@ -156,7 +166,7 @@ hr {
 }
 
 #projBox {
-    background-color: #F6F8FF;
+    background-color: #E8F1F2;
     margin: -2% 0 0 0;
     border-radius: 10px;
     -webkit-box-shadow: 9px 10px 39px 3px rgba(0, 0, 0, 1);
@@ -165,22 +175,22 @@ hr {
 }
 
 #projTitle {
-    background-color: #A846A0;
+    background-color: #00BFFF;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .projLinks i {
-    color: #F6F8FF;
+    color: #E8F1F2;
     font-size: 120%;
 }
 
 .projLinks i:hover {
-    color: #2DCC70;
+    color: #00BFFF;
 }
 
 .projLinks i:active {
-    color: #F6F8FF;
+    color: #E8F1F2;
 }
 
 .projLinks i:visited {
@@ -188,7 +198,7 @@ hr {
 }
 
 #projHr {
-    border-color: #A846A0;
+    border-color: #E8F1F2;
     border-width: 2px;
     margin: 0 0 -1% 0;
 }
@@ -221,22 +231,23 @@ hr {
 
 #contactBody {
     text-align: center;
-    background-color: #A846A0;
+    background-color: #00BFFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border-bottom: 2px solid #2DCC70;
+    border-bottom: 2px solid #E8F1F2;
+    padding-top: 1%;
 }
 
 .contactLinks i {
     color: #272D2D;
-    /*text-decoration: underline;*/
+    /*    text-decoration: underline;*/
     cursor: auto;
 }
 
 .contactLinks i:hover {
-    color: #2DCC70;
+    color: #00BFFF;
 }
 
 .contactLinks i:active {
